@@ -1,9 +1,6 @@
 ## 个人博客
 
-## Contributors
 
-Thank you to all the contributors of this project:
-- [liu](https://github.com/liujunxiang0076)
 <!-- <h1 align="center"> Curve </h1>
 <p align="center">A Simple VitePress Theme</p>
 <p align="center">
