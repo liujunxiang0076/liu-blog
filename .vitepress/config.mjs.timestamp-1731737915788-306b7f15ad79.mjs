@@ -159,7 +159,7 @@ var getAllPosts = async () => {
           const { data } = matter(content);
           const { title, date, categories, description, tags, top, cover } = data;
           const expired = Math.floor(
-            (/* @__PURE__ */ new Date().getTime() - new Date(date).getTime()) /
+            /* @__PURE__ */ (new Date().getTime() - new Date(date).getTime()) /
               (1e3 * 60 * 60 * 24),
           );
           return {
