@@ -194,5 +194,8 @@ export default withPwa(
         ],
       },
     },
+    build: {
+      chunkSizeWarningLimit: 1000000 // 设置为1MB
+    },
   }),
 );
